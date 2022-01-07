@@ -4,10 +4,11 @@ import base64
 import json
 
 #client id from spotify application
-CLIENT_ID = "db459c6c7af046da9f7ed812c73a8f69"
+CLIENT_ID = "clientID"
 #client secret from spotify application
-CLIENT_SECRET = "5dab7ec1e0ae4fc0a1787d716a58d8ec"
+CLIENT_SECRET = "clientSecret"
 
+#dont have a server running now so i am using a website that returns information sent to it
 REDIRECT_URI = "https://httpbin.org/anything"
 
 #Base spotify api url
